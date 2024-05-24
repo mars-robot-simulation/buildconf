@@ -14,6 +14,13 @@ Final merge, should only be performed after a minimum of review.
 ## Usage of autoproj
 See https://rock-robotics.org/documentation/autoproj/ for detailed information about autoproj.
 To install this build configuration:
+Make sure you have the required autoproj dependencies installed:
+
+```
+sudo apt-get install ruby ruby-dev wget build-essential
+```
+
+Then continue with:
 
 ```
 mkdir mars-dev
