@@ -25,6 +25,8 @@
 
 require 'autoproj/git_server_configuration'
 
+env_set 'USE_QT5', "1"
+
 Autoproj.env_inherit 'CMAKE_PREFIX_PATH'
 
 Autoproj.config.load_config_once("config_seed.yml")
